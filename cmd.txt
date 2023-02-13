@@ -1,0 +1,23 @@
+docker ps
+
+docker logs <container_id>
+
+decker exec -it <container_id> /bin/bash
+
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
+docker build -t <image_name> .
+docker push baxromov/fastapi:tagname
+
+
+docker tag local_image:tagname username/reponame:tagname
+
+
+docker container commit 67892b68901a fastapi:latest
+
+docker-compose up -d
+docker-compose logs backend
+docker-compose down
+
+
+
