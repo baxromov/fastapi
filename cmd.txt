@@ -20,4 +20,7 @@ docker-compose logs backend
 docker-compose down
 
 
+alembic revision -m "create_main_tables"
 
+
+alembic upgrade head
